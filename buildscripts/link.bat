@@ -1,4 +1,3 @@
-@echo off
 setlocal enabledelayedexpansion
 
 cd %obj_folder%

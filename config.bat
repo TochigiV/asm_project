@@ -1,5 +1,3 @@
-@echo off
-
 rem don't change this
 set current_dir=%cd%
 

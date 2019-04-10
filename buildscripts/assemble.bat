@@ -1,5 +1,3 @@
-@echo off
-
 cd %src_folder%
 
 for %%i in (*.asm) do (
