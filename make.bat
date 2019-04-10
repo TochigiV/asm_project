@@ -1,7 +1,7 @@
 @echo off
-call tools\config.bat
-call tools\assemble.bat
+call config.bat
+call buildscripts\assemble.bat
 echo Linking...
-call tools\link.bat
+call buildscripts\link.bat
 echo Done!
 pause

@@ -9,7 +9,7 @@ for %%i in (*.asm) do (
 
 for %%i in (*.obj) do (
 	echo Moving %%i to %obj_folder%...
-	move %%i %obj_folder%
+	move /y %%i %obj_folder%
 )
 
 cd %current_dir%
