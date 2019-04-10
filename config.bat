@@ -19,3 +19,6 @@ rem linker options
 set linker=%tool_folder%\GoLink.exe
 set linker_flags=/console /entry %entry% /fo %out_folder%\%executable_name%
 set additional_link_files=msvcrt.dll user32.dll kernel32.dll gdi32.dll oleaut32.dll hhctrl.ocx winspool.drv shell32.dll
+
+if not exist %obj_folder% mkdir %obj_folder%
+if not exist %out_folder% mkdir %out_folder%
