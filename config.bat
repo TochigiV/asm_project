@@ -8,7 +8,7 @@ set obj_folder=%current_dir%\obj
 set tool_folder=%current_dir%\tools
 
 rem executable options
-set executable_name=test
+set executable_name=test.exe
 set entry=main
 
 rem assembler options

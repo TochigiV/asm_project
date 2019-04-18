@@ -12,6 +12,7 @@ testString_length equ $-testString
 
 extern printf
 extern _getch
+extern testfn
 
 global main
 
@@ -34,6 +35,8 @@ main:
 	push testString
 	call printf
 	add esp, 4
+
+	call testfn
 	
 	_pause
 	
