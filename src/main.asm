@@ -1,10 +1,6 @@
 [SECTION .data]
 %include "shared.inc"
 
-pauseString db "Press any key to continue . . . ", 0
-
-crlf db 0Dh, 0Ah, 0
-
 helloString db "hello", 0Dh, 0Ah, 0
 
 fmtString db "%s %s %s %s", 0Dh, 0Ah, 0

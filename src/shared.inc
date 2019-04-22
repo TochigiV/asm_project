@@ -1,6 +1,10 @@
 ;shared.inc
 ;just a bunch of useful macros
 
+pauseString db "Press any key to continue . . . ", 0
+
+crlf db 0Dh, 0Ah, 0
+
 %macro prologue 0
 	push ebp
 	mov ebp, esp
