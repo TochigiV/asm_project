@@ -6,6 +6,7 @@ pauseString db "Press any key to continue . . . ", 0
 crlf db 0Dh, 0Ah, 0
 
 extern printf
+extern gets
 extern _getch
 
 %macro prologue 0
