@@ -15,8 +15,6 @@ boredString db "bored", 0
 
 [SECTION .text]
 
-extern printf
-extern _getch
 extern testfn
 
 global main

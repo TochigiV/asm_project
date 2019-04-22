@@ -9,8 +9,7 @@ fmtString db "You typed: %s", 0Dh, 0Ah, 0
 teststring resb 256
 
 [SECTION .text]
-extern printf
-extern gets
+
 global testfn
 
 testfn:
