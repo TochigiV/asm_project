@@ -12,11 +12,11 @@ set executable_name=test.exe
 set entry=main
 
 rem assembler options
-set assembler=%tool_folder%\nasm.exe
+set assembler=%tool_folder%\nasm\nasm.exe
 set assembler_flags=-f win32
 
 rem linker options 
-set linker=%tool_folder%\GoLink.exe
+set linker=%tool_folder%\golink\GoLink.exe
 set linker_flags=/console /entry %entry% /fo %out_folder%\%executable_name%
 set additional_link_files=msvcrt.dll user32.dll kernel32.dll gdi32.dll oleaut32.dll hhctrl.ocx winspool.drv shell32.dll
 
